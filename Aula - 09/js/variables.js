@@ -46,8 +46,17 @@ function exemploConsts(){
     console.log(x);
 }
 function tipoVariaveis(){
-    let idade = 25;
-    let peso  = 80.00;
+    let mista = ['gol',5,1.99,true,false];
+    console.log(mista);
+
+    // nulo
+    let nulo =  null;
+    console.log(nulo);
+
+    // Desconhecido
+
+    let desc;
+    console.log(desc);
 }
 // chamando as funções para a execução
 exemploLet();
