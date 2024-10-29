@@ -45,6 +45,11 @@ function exemploConsts(){
     x = 15;
     console.log(x);
 }
+
+// let vazia
+let lista = [];
+
+
 function tipoVariaveis(){
     let mista = ['gol',5,1.99,true,false];
     console.log(mista);
@@ -57,6 +62,31 @@ function tipoVariaveis(){
 
     let desc;
     console.log(desc);
+
+    // objeto vazio
+    let ojeto = {}
+
+    // objeto com atributos
+    let aluno={
+        nome:'Gustavo',
+        idade:20,
+        situacao: true,
+        endereco:{
+            rua:'Carlos de carvalho ',
+            bairro:'São João',
+            cidade:'Ferraz de vasconcelos',
+            uf:'SP'
+        },
+        telefone:[
+            11939495953,11950424563
+        ]
+
+        
+    }
+    //objetos anonimos nao possui méotdos de acesso ou de serviço
+    // apenas existem no momento da execução
+    // podemos ter objetor por dentro de objetos (objeto aninhado)
+    console.log(aluno);
 }
 // chamando as funções para a execução
 exemploLet();
