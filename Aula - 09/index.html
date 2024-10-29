@@ -5,15 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            height: 30px;
+            width: 250px;
+            border-radius: 5px;
+            border: 2px solid rgb(10, 110, 223);
+            background-color: aquamarine;
+        }
+    </style>
 </head>
     <body>
         <!-- Js inline -->
+        <h3>Function inline</h3>
         <button onclick="alert('Olá mundo')">Clique aqui</button>
-        <button onclick="msng()">Clique aqui 2</button>
+        <!-- Js script tag -->
+        <h3>Function tag script</h3>
+        <button onclick="msng()">Clique aqui</button>
+        <!-- Js documento externo -->
+        <h3>Function documento externo</h3>
+        <button onclick="msng2()">Clique aqui</button>
         <script>
             function msng(){
                 window.alert("Olá mundo via function");
             }
         </script>
+        <script src="./js/index.js"></script>
     </body>
 </html>
