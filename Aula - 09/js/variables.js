@@ -14,7 +14,6 @@ console.log(idade);
 
 //var ou let ou const
 
-
 function exemploVar(){
     var x = 5;
     if(true){
@@ -45,6 +44,7 @@ function exemploConsts(){
     x = 15;
     console.log(x);
 }
+
 
 // let vazia
 let lista = [];
@@ -87,8 +87,19 @@ function tipoVariaveis(){
     // apenas existem no momento da execução
     // podemos ter objetor por dentro de objetos (objeto aninhado)
     console.log(aluno);
+
+
+    // acesso direto
+    console.log(aluno.nome);
+
+    //modificar direto
+    aluno.nome="raje";
+    console.log(aluno.nome);
 }
 // chamando as funções para a execução
-exemploLet();
-exemploVar();
-exemploConsts();
+// exemploLet();
+// exemploVar();
+// exemploConsts();
+
+
+tipoVariaveis();
