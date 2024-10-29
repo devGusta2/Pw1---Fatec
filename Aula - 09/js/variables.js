@@ -32,3 +32,7 @@ function exemploLet(){
     }
     console.log(x);
 }
+
+// chamando as funções para a execução
+exemploLet();
+exemploVar();
