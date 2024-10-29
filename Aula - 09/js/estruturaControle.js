@@ -38,19 +38,19 @@ function estruturaDeCaso(){
     // Switch case; 
     let idade = prompt("Digite sua idade");
     switch(idade){
-        case idade > 65:
+        case 65:
             alert("Idoso");
             break;
 
-        case idade >17:
+        case 18:
             alert("Adulto");
             break;
 
-        case idade >12 && idade<18:
+        case 13:
             alert("Adolescente");
             break;
         
-        case idade <13:
+        case 10:
             alert("Criança");
             break;
     }
