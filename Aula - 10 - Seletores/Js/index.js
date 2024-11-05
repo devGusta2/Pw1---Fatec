@@ -26,5 +26,5 @@ const novoParagrafro = document.createElement('p')
 novoParagrafro.textContent = "Meu novo paragrafo"
 document.body.appendChild(novoParagrafro)
 
-const div = document.getElementsByClassName("textoInicio")
-document.div.append(div);
+const div = document.getElementById("textoInicio")
+document.div.appendChild(div);
