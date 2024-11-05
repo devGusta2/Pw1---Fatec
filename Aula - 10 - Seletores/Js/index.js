@@ -12,3 +12,5 @@ botao.addEventListener("click", ()=>{
 
 
 //manipulando conteudo e estilos
+titulo.textContent = "Aula com o DOM em JS";
+titulo.innerHTML = "<strong>Texto escuro<strong/>"
