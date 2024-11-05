@@ -9,3 +9,6 @@ const botao = document.getElementById("botao");
 botao.addEventListener("click", ()=>{
     alert('Php is better');
 });
+
+
+//manipulando conteudo e estilos
