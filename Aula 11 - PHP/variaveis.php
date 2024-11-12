@@ -14,10 +14,15 @@
 
     echo "<h3>Situação</h3>";
     $situacao = false;
+    echo $situacao;
+    
     echo "<h3>Situação</h3>";
     $situacao = true;
+    echo $situacao;
+
     echo "<h3>Situação</h3>";
     $situacao = Null;
+    echo $situacao;
 
     $disciplina = ['Pw1', 'Bd', 'Estrutura de dados'];
     print_r($disciplina);
