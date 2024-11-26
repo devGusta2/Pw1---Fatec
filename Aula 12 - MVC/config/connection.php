@@ -1,5 +1,7 @@
 <?php
+    namespace config;
     use PDO;
+    use PDOException;
     class connection{
         private $host = "localhost";
         private $password = '';
@@ -10,9 +12,11 @@
 
         public function getConn(){
             try{
-
-            }catch(){
-                 
+            this->conn = new PDO("mysql:host=$this->host; 
+            dbname=$this->database,$this->user, $this->password");
+            this->conn->execute("set names utf8");
+            }catch(PDOException $error){
+                echo "Erro:".$error->getMessage();
             }
         }
     }
